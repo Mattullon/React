@@ -23,7 +23,7 @@
         img.src=url;
         document.body.append(img);
         }
-getImagen()
+getImagen().then(console.log('HOLA, SI FUNCIONA '))
 
        
 
