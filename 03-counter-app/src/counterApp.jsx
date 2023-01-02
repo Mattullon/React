@@ -6,7 +6,7 @@ const CounterApp = ({value}) => {
     <>
     <h1>counterApp</h1>
     <h2> {value} </h2>
-
+s
     <button>
         +1
     </button>
