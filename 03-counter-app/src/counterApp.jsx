@@ -4,9 +4,8 @@ import PropTypes from 'prop-types'
 const CounterApp = ({value}) => {
   return (
     <>
-    <h1>counterApp</h1>
+    <h1> counterApp </h1>
     <h2> {value} </h2>
-s
     <button>
         +1
     </button>

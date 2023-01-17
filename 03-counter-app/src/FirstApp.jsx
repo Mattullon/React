@@ -6,7 +6,7 @@ const variable = {
     ubicacion:'USA'
 }
 
-const funcion= ()=>{
+const funcion = ()=> {
     return 'Hola Bienvenidos'
 }
 //prop-types  sirve para definir el tipo de propiedad que usaras 
@@ -15,9 +15,11 @@ const App = ({title, subTitle}) => {
     return (
     <>
     <h1> {title  } </h1>
+    <h1>{subTitle} </h1>
     <h1> {funcion()} </h1>
     <h1> {variable.nombre} </h1>
     <p> hola soy un parrafo </p>
+    
     </>
   )
 }
